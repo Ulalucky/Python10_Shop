@@ -4,6 +4,7 @@
 
 <a class="btn btn-outline-success" href="{% url 'update-product' product.id %}" role="button">Update</a>
 <a class="btn btn-outline-danger" href="{% url 'delete-product' product.id %}" role="button">Delete</a>
+{% endif %}
 
 
     <figure style="text-align: center;" class="figure">
@@ -12,6 +13,6 @@
        <h2 style="color: #fff;">{{ product.name }}</h2>
         <figcaption style="color: #fff;" class="figure-caption">{{ product.description }}</figcaption>
 </figure>
-Ω
+
 {% endblock %}
 
