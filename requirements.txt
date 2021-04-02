@@ -5,3 +5,4 @@ gunicorn==19.6.0
 django-shopping-cart==0.1
 python-decouple==3
 whitenoise==5.2.0
+psycopg2-binary==2.8.5
